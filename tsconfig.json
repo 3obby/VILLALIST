@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"], // Supports modern and browser environments
+    "allowJs": true, // Allows JavaScript files
+    "skipLibCheck": true, // Skips type-checking for node_modules
+    "strict": false, // Disables strict type-checking for more permissive setup
+    "forceConsistentCasingInFileNames": true, // Enforces case consistency in imports
+    "noEmit": true, // Prevents emitting compiled files
+    "esModuleInterop": true, // Ensures compatibility with ES module systems
+    "module": "esnext", // Enables ESNext module syntax
+    "moduleResolution": "node", // Resolves modules using Node.js resolution
+    "resolveJsonModule": true, // Allows importing JSON files
+    "isolatedModules": true, // Ensures each file is treated as a separate module
+    "jsx": "preserve", // Retains JSX syntax in output for further transformation
+    "incremental": true, // Enables incremental builds
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".", // Base directory for resolving paths
+    "paths": {
+      "@/*": ["./src/*"] // Path alias for cleaner imports
+    },
+    "noImplicitAny": false, // Allows implicit `any` type
+    "strictNullChecks": false, // Disables strict null and undefined checks
+    "noImplicitReturns": false, // Allows functions to have implicit returns
+    "noUnusedLocals": false, // Suppresses errors for unused local variables
+    "noUnusedParameters": false // Suppresses errors for unused function parameters
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts" // Includes generated types for Next.js
+, "clearDatabase.js"  ],
+  "exclude": ["node_modules"] // Excludes node_modules to reduce unnecessary checks
+}

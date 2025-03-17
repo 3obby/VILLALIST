@@ -1,0 +1,433 @@
+[
+  {
+    "id": "a33217ff-7391-4af5-8334-391976413690",
+    "uriId": "Villa-LeGa",
+    "title": "Villa LeGa",
+    "description": "**Villa LeGa** is a **luxurious beachfront villa in Batu Belig, Seminyak**, offering **five spacious bedrooms, a private 12-meter pool, and breathtaking ocean views**. Located **right on the sand**, this contemporary villa is perfect for **families and groups looking for a high-end beachside retreat**.\n\nThe villa features **expansive air-conditioned living areas**, an **elegant dining space for 12 guests**, and a **fully equipped modern kitchen**. Guests can relax in the **TV lounge, rooftop terrace, or the shaded pool deck surrounded by lush gardens**. Each bedroom boasts a **king-sized bed, dressing area, and a semi-tropical ensuite bathroom**. The **master suites on the upper level** offer **unmatched sunset views over the ocean**.\n\nA **private chef** prepares delicious meals from a **customized menu**, while the dedicated **villa team** provides exceptional service. Within walking distance to **Bali’s top beach clubs, including W Retreat & Spa and traditional beachside cafés**, **Villa LeGa** offers **the ultimate beachfront living experience**.",
+    "featuredImage": "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic01.jpg",
+    "typeOfPlace": "Entire place",
+    "address": "Batu Belig Beach, Seminyak, Bali, Indonesia.",
+    "pricePerNight": 1552.32,
+    "maxGuests": 10,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "mapLat": -8.676303,
+    "mapLng": 115.147519,
+    "layout": null,
+    "isFeatured": false,
+    "createdAt": "2025-01-19T04:57:44.771Z",
+    "updatedAt": "2025-03-09T00:09:41.640Z",
+    "additionalDetails": {
+      "Spa": "In villa treatments selected from a comprehensive spa menu can be carried out by professional beauty therapists (extra cost applies).",
+      "Pool": "Length 12m x width 4m x depth 1.5-2m.",
+      "Staff": "Villa manager; butler; private chef; housekeeping; security; gardener. Additional staff (ex. masseuses) available on request.",
+      "Dining": "A suggestion menu of western, Asian and vegetarian dishes. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.",
+      "Capacity": "10 people (5 ensuite bedrooms with king-size beds). Extra beds are available on guest request at additional charge.",
+      "bedrooms": {
+        "Guest Bedroom 1": [
+          "Situated on the upper floor towards the rear of the villa",
+          "King-sized bed with romantic canopy under high ceilings",
+          "Ensuite bathroom with tub and overhead rain shower",
+          "Air-conditioned room with dressing area and TV/DVD player"
+        ],
+        "Master Bedroom 1": [
+          "Air-conditioned, upper-floor room with canopied king-sized bed",
+          "Sliding doors onto large private balcony with ocean and sunset views",
+          "Features high ceilings, wood floors, armchairs and large TV/DVD player",
+          "Tropical ensuite bathroom with tub and shower"
+        ],
+        "Master Bedroom 2": [
+          "Air-conditioned, upper-floor room with canopied king-sized bed",
+          "Features high ceilings and wood floors, desk area and TV/DVD player",
+          "Sliding doors onto large private balcony with ocean and sunset views",
+          "Tropical ensuite bathroom with tub and shower",
+          "Opens onto TV lounge"
+        ],
+        "Guest Bedroom 2 & 3": [
+          "Identical, air-conditioned rooms, both opening onto garden and pool",
+          "King-sized beds draped with romantic canopies",
+          "Indoor/outdoor ensuite bathrooms featuring tubs and walk-in showers",
+          "Desks, dressing areas and satellite TV/DVD players"
+        ]
+      },
+      "Fireplace": "",
+      "Transport": "Villa LeGa is ten to fifteen minutes away from a huge selection of restaurants and shops in Seminyak and Canggu. A car and driver are available to villa guests for eight consecutive hours a day (excluding petrol) at a cost of US$45++.",
+      "amenities": [
+        "Staffed",
+        "Private Chef",
+        "Private Pool",
+        "Elite Concierge",
+        "Free Wifi"
+      ],
+      "For Families": "The villa is great for a group of families holidaying together. With five bedrooms spread over two levels, there is plenty of space for everyone. The in-house chef can cater to kids meals and babysitters can be hired for an additional fee.",
+      "Living Areas": "Open-plan living, dining, kitchen area with 12-seater dining table; furnished rooftop sun terrace.",
+      "Communication": "WiFi internet access; landline for local calls; mobile phone for guest use; computer.",
+      "Entertainment": "Satellite TVs; DVD players; surround-sound system; CD player; iPod dock.",
+      "chalet features": [
+        "Elegant dining area seating up to 12 guests",
+        "Comfortable open-sided living room with large satellite-channel TV and DVD player",
+        "Air-conditioned TV lounge on first floor",
+        "Immaculate walled garden with 12-metre pool, sun deck and loungers",
+        "Upper-floor ‘sunset’ terrace furnished with comfortable all-weather seating",
+        "Intimate rooftop deck above villa entrance with sun loungers and umbrella"
+      ],
+      "Additional Facilities": "Barbecue; diesel powered back-up generator; safety deposit box.",
+      "Managed and marketed by": "The Elite Havens Group."
+    },
+    "roomTypes": [
+      {
+        "id": "cm6nb489v002nvi9w2rlrdfaq",
+        "listingId": "a33217ff-7391-4af5-8334-391976413690",
+        "name": "Default",
+        "pricePerNight": 1552.32,
+        "maxGuests": 10,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "imageLinks": [
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic01.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic02.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic03.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic04.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic05.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic06.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic07.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic08.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic09.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0093/Pic10.jpg"
+        ],
+        "layout": null,
+        "additionalDetails": null
+      }
+    ],
+    "galleryImages": []
+  },
+  {
+    "id": "f035d382-94cf-4e6f-83ab-1e9192d0b573",
+    "uriId": "Villa-1880",
+    "title": "Villa 1880",
+    "description": "**Villa 1880** is a **spectacular design-driven villa** in **Batu Belig, Bali**, seamlessly blending **colonial charm with contemporary luxury**. This **five-bedroom estate** accommodates up to **8 adults and 8 children**, making it perfect for **multiple families or groups** seeking a refined yet relaxed getaway.\n\nThe heart of the villa is a beautifully **restored 1880s plantation house from Borneo**, constructed from ironwood, complemented by **modern architectural additions**. Designed by a **renowned interior architect and vintage furniture collector**, Villa 1880 boasts **mid-century Italian furnishings, contemporary art, custom lighting, and high-spec amenities**.\n\nGuests can enjoy a **rooftop sunset terrace, a private pool, and expansive living areas**, all enhanced by **mood lighting and a state-of-the-art water filtration system**. Just minutes from **Batu Belig Beach and Seminyak’s vibrant dining and nightlife scene**, **Villa 1880** offers a **stylish yet comfortable retreat** in **one of Bali’s most sought-after locations**.",
+    "featuredImage": "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic01.jpg",
+    "typeOfPlace": "Entire place",
+    "address": "Batu Belig, Gang Daksina, Bali.",
+    "pricePerNight": 1143.45,
+    "maxGuests": 16,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "mapLat": -8.671608,
+    "mapLng": 115.149406,
+    "layout": null,
+    "isFeatured": false,
+    "createdAt": "2025-01-19T04:57:42.313Z",
+    "updatedAt": "2025-03-09T00:09:41.052Z",
+    "additionalDetails": {
+      "Spa": "In-villa treatments selected from a comprehensive spa menu can be carried out by internationally trained therapists (extra cost applies) at the villa's private spa room.",
+      "Pool": "19 x 4m saltwater pool with shaded shallow section for kids.",
+      "Staff": "Senior butler; housekeeper; chef; security guards. Additional staff (babysitters, masseuses) on request at extra charge.",
+      "Dining": "Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.",
+      "Capacity": "8 adults and 8 children (5 bedrooms: 4 with super-king beds; 1 children’s room with 8 bunk beds). Two extra beds may be set up on guest request at an additional charge.",
+      "bedrooms": {
+        "Bedroom I": [
+          "The only ground-floor bedroom",
+          "Super-king bed encircled with a retractable mosquito curtain, resting on a terrazzo floor inlaid with brass",
+          "42-inch TV with satellite channels, DVD player, and JBL portable speaker",
+          "Desk, wall of wardrobes, and in-room safe",
+          "Choice of air-conditioning or ceiling fan",
+          "Large bathroom with granite basins and a separate section with bathtub and shower area opening onto a courtyard garden"
+        ],
+        "Bedroom II": [
+          "Located on the upper floor",
+          "Super-king bed facing greenery beyond plantation shutters",
+          "42-inch TV with satellite channels, and JBL portable speaker",
+          "Desk, wall of wardrobes, and in-room safe.",
+          "Choice of air-conditioning or ceiling fan",
+          "Bathroom behind room divider, with twin granite basins and large shower enclosure"
+        ],
+        "Bedroom IV": [
+          "A third level bedroom under the eaves of the plantation house, with its own private staircase from the upper level veranda",
+          "Super-king bed facing a 42-inch TV, DVD player and JBL portable speaker",
+          "Desk, wardrobe and in-room safe",
+          "Choice of air-conditioning or ceiling fan",
+          "Open-plan bathroom behind smoked glass dividers, with antique sink and shower enclosure"
+        ],
+        "Bedroom III": [
+          "Located on the upper floor",
+          "Super-king bed encircled with a retractable mosquito curtain, resting on a terrazzo floor inlaid with brass.",
+          "42-inch TV with satellite channels, DVD player, and JBL portable speaker",
+          "Desk, wall of wardrobes, and in-room safe",
+          "Choice of air-conditioning or ceiling fan",
+          "Bathroom with twin granite basins, shower enclosure, and courtyard with statement bathtub and shower",
+          "Connects to the children’s bunk room through the bathroom"
+        ],
+        "Children's Bunk Room": [
+          "Located on the upper floor of the plantation house",
+          "Features a wall of 8 bunk beds especially designed for kids aged up to 12, with reading light and wall organiser",
+          "42-inch TV with satellite channels, and JBL portable speaker",
+          "Choice of air-conditioning or ceiling fans",
+          "Lots of toys, games and books",
+          "Bathroom with bathtub, bidet and twin basins, one set lower to suit little ones – and a door connecting to bedroom 3",
+          "Also connects to the media room and the upper terrace"
+        ]
+      },
+      "Fireplace": "",
+      "Transport": "A car and driver can be hired at a daily rate of US$45++ for 8 hours (excluding petrol).",
+      "amenities": [
+        "Staffed",
+        "Private Pool",
+        "Elite Concierge",
+        "Free Wifi"
+      ],
+      "For Families": "Villa 1880 is fabulous for families. Facilities for little ones include: a bassinette; 2 baby cots; high chair; baby bath; children’s books, toys and pool inflatables.",
+      "Living Areas": "Open-sided fan-cooled living and dining area with dining table for 10 and guest kitchen/bar; main kitchen; poolside sitting area with hammock and table tennis; air-conditioned media room; office; large roof terrace with barbecue.",
+      "Communication": "WiFi connection via high speed fibre optic internet; room-to-room phone system; phone for local calls.",
+      "Entertainment": "75-inch TV with satellite channels, sound bar and DVD player in media room; 42-inch TV with satellite channels in 4 bedrooms, DVD players; DVD and book library; board games; table tennis. Portable speakers in bedrooms, media room and living pavilion. Plug in for phone plus bluetooth system.",
+      "chalet features": [
+        "Air-conditioned media room with plush velvet seating, 75-inch TV with satellite channels, DVD player, DVD library, home theatre system, portable Marshall speaker, and books and games.",
+        "Spa with two massage beds, a sunken bathtub and shower room.",
+        "Studio office accessed across a koi pond, with long metal desk.",
+        "Well-equipped kitchen with wine fridge.",
+        "Large open-sided flat-roofed living pavilion with seating area, 4m dining table for 12, and guest kitchen with sit-up bar counter island, sink and hob.",
+        "Second casual poolside seating area with sofas, hammock, and table tennis.",
+        "19m saltwater pool with shaded shallow section for the kids, and poolside deck with sun-loungers and sleek alfresco shower.",
+        "Deep veranda wrapping around two sides of the house’s upper level, with seating and coffee table.",
+        "Large sunset terrace with barbecue grill, casual seating and long benches.",
+        "Property area 1,075sqm (land), 1,550sqm (villa)."
+      ],
+      "Additional Facilities": "Gas barbecue grill; diesel powered back-up generator; wine fridge; water filtration system; safety deposit boxes.",
+      "Managed and marketed by": "The Elite Havens Group."
+    },
+    "roomTypes": [
+      {
+        "id": "cm6nb4hzq003pvi9w1g8a1lud",
+        "listingId": "f035d382-94cf-4e6f-83ab-1e9192d0b573",
+        "name": "Default",
+        "pricePerNight": 1143.45,
+        "maxGuests": 16,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "imageLinks": [
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic01.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic02.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic03.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic04.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic05.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic06.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic07.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic08.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic09.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0092/Pic10.jpg"
+        ],
+        "layout": null,
+        "additionalDetails": null
+      }
+    ],
+    "galleryImages": []
+  },
+  {
+    "id": "7d7970d8-e7d0-4ae4-a5b0-c2bce162e08d",
+    "uriId": "Villa-Bangkuang",
+    "title": "Villa Bangkuang",
+    "description": "**Villa Bangkuang** is a **stunning five-bedroom estate** nestled on the edge of **Seseh Village**, just **300 meters from a wild black sand beach**. Located between **Canggu and Tanah Lot**, this **recently remodeled villa** offers **a seamless blend of traditional Balinese architecture and modern luxury**.\n\nThe villa features **a spacious 17-meter pool, beautifully designed pavilions with thatched alang-alang roofs, and interiors filled with handpicked antique and custom-built furniture**. Designed for **multi-generational families or groups of friends**, Villa Bangkuang has **multiple indoor and outdoor living areas overlooking lush rice fields stretching to the ocean**.\n\nGuests can enjoy the **peace and serenity of a secluded retreat**, while still being within easy reach of **Canggu’s vibrant cafés and the famous Tanah Lot temple**. Whether you seek **relaxation, cultural immersion, or adventure**, **Villa Bangkuang** delivers a **truly unique and tranquil Bali experience**.",
+    "featuredImage": "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic01.jpg",
+    "typeOfPlace": "Entire place",
+    "address": "Seseh Village, South-west Bali, Indonesia.",
+    "pricePerNight": 1386,
+    "maxGuests": 11,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "mapLat": -8.643244,
+    "mapLng": 115.111789,
+    "layout": null,
+    "isFeatured": false,
+    "createdAt": "2025-01-19T04:57:47.227Z",
+    "updatedAt": "2025-03-09T00:09:42.225Z",
+    "additionalDetails": {
+      "Spa": "A range of in-villa massage and spa treatments can be arranged on request using visiting therapists (extra costs apply).",
+      "Pool": "17.5 x 4.8 metres infinity pool.",
+      "Staff": "Villa Manager; housekeepers; security; gardener; additional staff (chef, babysitters, spa therapists) available on request for an additional charge.",
+      "rooms": {
+        "Guest Bedroom 1": [
+          "Located closest to the entrance in the main sleeping pavilion at the ground level",
+          "Perfect for elder or less mobile guests",
+          "Tastefully furnished with a four-poster bed",
+          "A comfortable sofa that can be set up as an extra bed, if required",
+          "A planters chair to recline on for a moment of reflection",
+          "Indoor-outdoor bathroom with granite basins, walk-in rain shower, terrazzo bathtub and a heliconia-filled garden",
+          "Lovely outdoor deck with views of the garden"
+        ],
+        "Triple Family Room": [
+          "Huge L-shaped air-conditioned bedroom located next to the guest bedroom",
+          "Three single beds and a large sofa that can be set up as a fourth bed, if required",
+          "Elegant furnishing including matching ottomans",
+          "Ideal space for children as well as young adults",
+          "One bed is set apart, so could be suitable for a live-in nanny supervising young ones",
+          "The room opens onto a private courtyard garden with traditional Javanese rattan chairs",
+          "Bathroom with stone basins, walk-in rain shower and terrazzo bathtub"
+        ],
+        "Master Bedroom Suite": [
+          "Palatial master suite spread across the entire upper level of the main sleeping pavilion",
+          "Grand four-poster bed and sitting area with a sofa set",
+          "A 55-inch flat-screen TV for your viewing pleasure",
+          "Light-filled space with vaulted ceilings, Bengkirai wood floors, and three walls of glass allowing endless views",
+          "Large air-conditioned dressing room with wardrobes and an extra-wide desk/vanity area",
+          "Majestic air-conditioned bathroom with twin stone basins, a walk-in rain shower, terrazzo bathtub, and more clothes storage",
+          "Breezy full-width balcony with built-in daybed looking onto the garden and rice fields"
+        ],
+        "Seaview Garden Guest Bedrooms 4&5": [
+          "Two guest bedrooms share a separate pavilion in the garden bordering rice fields",
+          "Each room has a king-size bed on a raised platform",
+          "The rooms are well furnished, each with a planters chair, work desk, and a window seat",
+          "Walk-through wardrobe leading to the ensuite bathroom",
+          "Each bathroom has a stone basin, walk-in rain shower and terrazzo bathtub",
+          "Sliding doors that lead to a small deck with ocean views across the rice fields",
+          "The bedrooms share a private lounging area with antique rattan sofa facing the view"
+        ]
+      },
+      "Dining": "Staff may shop for groceries etc, with guests charged at cost plus prevailing service and tax charges and a 20% handling fee.",
+      "Capacity": "8 adults and 3 kids (5 ensuite bedrooms: 4 king-size; 1 with 3 single beds for kids). 2 more people can be accommodated by converting the library into a 6th ensuite bedroom; 3 extra single beds available for an additional charge.",
+      "Fireplace": "",
+      "Transport": "Car and driver can be arranged at US$45++ per day for short trips or day tours (excludes petrol).",
+      "amenities": [
+        "Staffed",
+        "Private Pool",
+        "Daily Breakfast",
+        "Spa Services",
+        "Free Wifi"
+      ],
+      "For Families": "A range of children’s items including baby cots, high chairs, toys and pool floats can be hired on request to suit kids of all ages.",
+      "Living Areas": "Formal living pavilion with dining table seating 12, seating area, and large kitchen; separate preparation kitchen/butler’s pantry; library/den; rice-field view rooftop terrace with bale; garden gazebo with seating for 5; pool deck with 4 sunbeds; large decked terrace with daybeds; tropical garden with stream and working rice fields.",
+      "Communication": "Complimentary fibre-optic WiFi access with 3 router zones; 65-inch TV with Netflix in living pavilion, 55-inch TV in master bedroom.",
+      "Entertainment": "65-inch TV with Netflix in living pavilion, 55-inch TV in master bedroom.",
+      "chalet features": [
+        "Living pavilion with marble-topped dining tables seating 12 for your group to gather around",
+        "Seating area facing a 65-inch television with Netflix for movie nights",
+        "An open-plan guest kitchen with a sit-up bar, wine fridge and cooking facilities",
+        "The house also has a service kitchen which is out of sight",
+        "The living areas are all air conditioned with large glass doors that can be opened up to allow the sea breeze in",
+        "Air-conditioned library and den that opens onto a lovely garden terrace and has its own attached bathroom",
+        "Alcoves by the bedrooms with daybeds, sofas and chairs",
+        "Well-equipped gym with a Startrac running machine, Yesoul bike, Inspire functional trainer, MX55 weights and yoga mats",
+        "Spa room with a massage bed, aesthetic water feature and calming rice field views",
+        "A refreshing 17.5-metre greenstone-tiled swimming pool with views that extend across paddies",
+        "Sundeck with four sun loungers facing the length of the pool towards rice fields",
+        "Large entertainment terrace with antique daybeds and a sit-up bar counter",
+        "Garden gazebo with seating for four, the perfect spot for reading a book",
+        "Rooftop sunset terrace with a bale and seating with prime views across rice fields towards the ocean",
+        "All the bedrooms boast verandas and decks for private alfresco living",
+        "Beautiful tropical garden with a small stream flowing through, and a working rice field"
+      ],
+      "Additional Facilities": "Wine fridge; 38.5KVA generator back-up.",
+      "Managed and marketed by": "The Elite Havens Group."
+    },
+    "roomTypes": [
+      {
+        "id": "cm6nb48qw002pvi9wv1147swq",
+        "listingId": "7d7970d8-e7d0-4ae4-a5b0-c2bce162e08d",
+        "name": "Default",
+        "pricePerNight": 1386,
+        "maxGuests": 11,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "imageLinks": [
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic01.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic02.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic03.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic04.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic05.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic06.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic07.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic08.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic09.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0094/Pic10.jpg"
+        ],
+        "layout": null,
+        "additionalDetails": null
+      }
+    ],
+    "galleryImages": []
+  },
+  {
+    "id": "7363ad4e-23b6-4940-859b-9ef4829fad56",
+    "uriId": "Seseh-Beach-Villa-I",
+    "title": "Seseh Beach Villa I",
+    "description": "**Seseh Beach Villa I** is a **luxurious seaside retreat** offering **five spacious bedrooms, a private pool, and direct access to Bali’s serene Seseh Beach**. This **stylish contemporary villa** is part of the **Seseh Beach Villas estate**, which includes a second villa, **providing a total of 11 bedrooms for larger groups and events**.\n\nDesigned for **families, wedding parties, and corporate retreats**, Seseh Beach Villa I features **a spacious open-plan living and dining area, high ceilings, and a blend of modern and traditional Balinese design**. The **ocean-facing master suite** provides **breathtaking sunset views**, while the **private infinity pool** and **lush tropical gardens** offer the perfect setting for relaxation.\n\nThe villa is serviced by a **dedicated team including a private chef, butlers, and villa attendants**. Guests can enjoy **gourmet dining, beachfront lounging, and tailored experiences**. With **Seseh’s black sand beach just steps away**, and **Canggu’s vibrant cafés, shops, and nightlife within a short drive**, **Seseh Beach Villa I** is **an exceptional choice for those seeking luxury and tranquility**.",
+    "featuredImage": "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic01.jpg",
+    "typeOfPlace": "Entire place",
+    "address": "Seseh village, south-west Bali, Indonesia.",
+    "pricePerNight": 3731.81,
+    "maxGuests": 24,
+    "bedrooms": 11,
+    "bathrooms": 11,
+    "mapLat": -8.644992,
+    "mapLng": 115.111603,
+    "layout": null,
+    "isFeatured": false,
+    "createdAt": "2025-01-19T04:57:49.484Z",
+    "updatedAt": "2025-03-09T00:09:42.813Z",
+    "additionalDetails": {
+      "Spa": "In villa treatments selected from a comprehensive spa menu can be carried out by professional beauty therapists (extra cost applies).",
+      "Pool": "Two pools measuring 17 x 5 metres and 16 x 7 metres.",
+      "Staff": "The staff team includes a villa manager; private chef; assistant cook; villa attendants; security; gardener; maintenance. Additional staff (babysitters, masseuses) available on request.",
+      "Dining": "Western, Asian, vegetarian and children’s dishes available. Requests accommodated (including special diets). Grocery cost is charged 30% handling fee which is subject to service and tax at the prevailing rate.",
+      "Capacity": "20 adults and 4 children.",
+      "bedrooms": [
+        "Five king-sized bedrooms (three that may be converted to twins) in Seseh Beach Villa I plus three king-sized bedrooms and two queen-sized bedrooms in Seseh Beach Villa II",
+        "Seseh Beach Villa II also has a kids’ bunk room, able to sleep up to four children, located behind the ground floor guestroom",
+        "All bedrooms come with air conditioning and ceiling fans, as well as walk-through dressing areas, satellite-channel TVs and DVD players",
+        "Ensuite bathrooms are air conditioned, and fitted with rain showers (some of these are outdoor) and bathtubs (except for the bunk room)"
+      ],
+      "Fireplace": "",
+      "Transport": "Car and driver available for 8 hours at a special rate of USD45++/day (excluding petrol).",
+      "amenities": [
+        "Staffed",
+        "Private Chef",
+        "Private Pool",
+        "Elite Concierge",
+        "Free Wifi"
+      ],
+      "For Families": "Seseh Beach Villas are well equipped for families. Facilities include a children’s pool ; cutlery and plates; baby cot; high chair; DVDs; toys and pool toys.",
+      "Living Areas": "Air conditioned living and dining rooms; outdoor dining pavilions; poolside relaxation balés; terraces; pool decks with sun beds and umbrellas.",
+      "Communication": "WiFi internet access; landline for local calls; printer.",
+      "Entertainment": "Flat-screen satellite-channel TVs in living rooms and bedrooms; DVD players; iPod docks in each room (Bluetooth or cable through Sonos system); Xbox; PlayStation; Wii.",
+      "chalet features": [
+        "The villas are linked by an interconnecting garden gate",
+        "Two generous swimming pools with water features",
+        "Pool decks furnished with sun loungers and parasols",
+        "Cushion-scattered poolside relaxation balés",
+        "Large flat lawns, great for weddings and events",
+        "Alfresco dining areas beside each pool with sea views",
+        "Rooftop sunset terrace furnished with beanbags",
+        "Air conditioned living and dining areas seating up to 14 with floor-to-ceiling glass doors that open generously onto the garden",
+        "TV lounge areas with large flat-screen satellite-channel TVs, DVD players, comfy sofas and entertainment including an Xbox and PlayStation",
+        "Integrated bars next to the dining areas"
+      ],
+      "Additional Facilities": "Full back-up diesel powered electrical generator; barbecue; safety deposit box.",
+      "Managed and marketed by": "The Elite Havens Group."
+    },
+    "roomTypes": [
+      {
+        "id": "cm6nb4ijg003rvi9wcodw6qia",
+        "listingId": "7363ad4e-23b6-4940-859b-9ef4829fad56",
+        "name": "Default",
+        "pricePerNight": 3731.81,
+        "maxGuests": 24,
+        "bedrooms": 11,
+        "bathrooms": 11,
+        "imageLinks": [
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic01.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic02.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic03.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic04.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic05.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic06.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic07.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic08.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic09.jpg",
+          "https://villaz.b-cdn.net/Bkklucy/Bkklucy/Indonesia/Bali/0096/Pic10.jpg"
+        ],
+        "layout": null,
+        "additionalDetails": null
+      }
+    ],
+    "galleryImages": []
+  }
+]

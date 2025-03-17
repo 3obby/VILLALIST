@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+  }
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  animation: shimmer 2s infinite;
+}
+
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 8s ease infinite;
+}
+
+/* Improved fade-in animation for smoother transitions */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+/* Improved fade-out animation for smoother transitions */
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.animate-fade-out {
+  animation: fadeOut 0.2s ease-in-out forwards;
+}
+
+/* Pulse animation for loading indicators */
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-slow {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Floating particles */
+@keyframes float {
+  0% { transform: translateY(0px) translateX(0px) rotate(0deg); opacity: 0.3; }
+  25% { transform: translateY(-10px) translateX(5px) rotate(5deg); opacity: 0.5; }
+  50% { transform: translateY(-20px) translateX(10px) rotate(10deg); opacity: 0.3; }
+  75% { transform: translateY(-10px) translateX(15px) rotate(5deg); opacity: 0.5; }
+  100% { transform: translateY(0px) translateX(0px) rotate(0deg); opacity: 0.3; }
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.particle-1 {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #ffd1d1, #ffc3a0);
+  top: 20%;
+  left: 20%;
+  animation: float 7s ease-in-out infinite;
+}
+
+.particle-2 {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #c3f0ca, #a0e7e5);
+  top: 30%;
+  right: 20%;
+  animation: float 9s ease-in-out infinite reverse;
+}
+
+.particle-3 {
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(135deg, #ffebb4, #ffcb91);
+  bottom: 30%;
+  left: 30%;
+  animation: float 8s ease-in-out infinite 1s;
+}
+
+.particle-4 {
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(135deg, #d4c1ec, #b8c0ff);
+  bottom: 20%;
+  right: 30%;
+  animation: float 6s ease-in-out infinite 2s;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Improved loading bar animation */
+@keyframes loading-progress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.animate-loading-progress {
+  animation: loading-progress 1.5s ease-out forwards;
+}
+
+/* Smooth transition for image loading */
+.image-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Prevent white flash during image transitions */
+.gallery-slider-container {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Immediate loader visibility */
+.loader-visible {
+  opacity: 1 !important;
+  transition: opacity 0s !important;
+}
+
+/* Text floating animations */
+@keyframes float-text {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-float-1 { animation: float-text 2s ease-in-out infinite 0.05s; }
+.animate-float-2 { animation: float-text 2s ease-in-out infinite 0.1s; }
+.animate-float-3 { animation: float-text 2s ease-in-out infinite 0.15s; }
+.animate-float-4 { animation: float-text 2s ease-in-out infinite 0.2s; }
+.animate-float-5 { animation: float-text 2s ease-in-out infinite 0.25s; }
+.animate-float-6 { animation: float-text 2s ease-in-out infinite 0.3s; }
+.animate-float-7 { animation: float-text 2s ease-in-out infinite 0.35s; }
+.animate-float-8 { animation: float-text 2s ease-in-out infinite 0.4s; }
+.animate-float-9 { animation: float-text 2s ease-in-out infinite 0.45s; }
+.animate-float-10 { animation: float-text 2s ease-in-out infinite 0.5s; }
+.animate-float-11 { animation: float-text 2s ease-in-out infinite 0.55s; }
+.animate-float-12 { animation: float-text 2s ease-in-out infinite 0.6s; }
+.animate-float-13 { animation: float-text 2s ease-in-out infinite 0.65s; }
+.animate-float-14 { animation: float-text 2s ease-in-out infinite 0.7s; }
+.animate-float-15 { animation: float-text 2s ease-in-out infinite 0.75s; }
+.animate-float-16 { animation: float-text 2s ease-in-out infinite 0.8s; }
+.animate-float-17 { animation: float-text 2s ease-in-out infinite 0.85s; }
+.animate-float-18 { animation: float-text 2s ease-in-out infinite 0.9s; }
+.animate-float-19 { animation: float-text 2s ease-in-out infinite 0.95s; }
+.animate-float-20 { animation: float-text 2s ease-in-out infinite 1s; }
+.animate-float-21 { animation: float-text 2s ease-in-out infinite 1.05s; }
+.animate-float-22 { animation: float-text 2s ease-in-out infinite 1.1s; }
+.animate-float-23 { animation: float-text 2s ease-in-out infinite 1.15s; }
+.animate-float-24 { animation: float-text 2s ease-in-out infinite 1.2s; }

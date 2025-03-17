@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  The Villa List - Luxury Villa Rentals Sitemap
+  This sitemap provides search engines with information about the structure and content
+  of thevillalist.com, a premier luxury villa rental service in Asia-Pacific.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <!-- 
+    MAIN NAVIGATION PAGES
+    These are the primary pages accessible from the main navigation menu.
+    They form the core structure of The Villa List website.
+  -->
+  
+  <!-- Home Page - Main landing page for the website -->
+  <url>
+    <loc>https://thevillalist.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/homepage-hero.jpg</image:loc>
+      <image:title>The Villa List - Luxury Villa Rentals</image:title>
+      <image:caption>Your gateway to extraordinary luxury villa experiences across Asia's most beautiful destinations</image:caption>
+    </image:image>
+    <video:video>
+      <video:content_loc>https://villaz.b-cdn.net/a.mp4</video:content_loc>
+      <video:title>The Villa List Experience</video:title>
+      <video:description>Discover the luxury villa experience with The Villa List</video:description>
+      <video:thumbnail_loc>https://thevillalist.com/images/video-thumbnail.jpg</video:thumbnail_loc>
+    </video:video>
+  </url>
+
+  <!-- About Page - Company information, story, and features -->
+  <url>
+    <loc>https://thevillalist.com/about</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/about"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/about-hero.jpg</image:loc>
+      <image:title>About The Villa List</image:title>
+      <image:caption>Learn about our journey, mission, and commitment to exceptional villa experiences</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Company Story, Villa Features, Services, Team Information -->
+  </url>
+
+  <!-- Book Now Page - Direct booking and vacation request form -->
+  <url>
+    <loc>https://thevillalist.com/book-now</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/book-now"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/booking-hero.jpg</image:loc>
+      <image:title>Book Your Luxury Villa</image:title>
+      <image:caption>Start your journey to an unforgettable luxury villa experience</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Booking Form, How It Works Process, Testimonials -->
+  </url>
+
+  <!-- 
+    PROPERTY LISTINGS PAGES
+    These pages display villa listings by location, allowing users to browse
+    and filter available properties based on their preferred destination.
+  -->
+  
+  <!-- All Listings - Complete collection of all available properties -->
+  <url>
+    <loc>https://thevillalist.com/listings?location=all</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/listings?location=all"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/all-listings.jpg</image:loc>
+      <image:title>All Luxury Villas</image:title>
+      <image:caption>Browse our complete collection of luxury villas across all destinations</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Filtering Options, Property Cards, Map View -->
+  </url>
+
+  <!-- Phuket Listings - Properties in Phuket, Thailand -->
+  <url>
+    <loc>https://thevillalist.com/listings?location=phuket</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/listings?location=phuket"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/phuket-listings.jpg</image:loc>
+      <image:title>Phuket Luxury Villas</image:title>
+      <image:caption>Discover our exclusive collection of luxury villas in Phuket, Thailand's largest island paradise</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Phuket Area Guide, Beach Information, Local Attractions -->
+  </url>
+
+  <!-- Koh Samui Listings - Properties in Koh Samui, Thailand -->
+  <url>
+    <loc>https://thevillalist.com/listings?location=koh-samui</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/listings?location=koh-samui"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/samui-listings.jpg</image:loc>
+      <image:title>Koh Samui Luxury Villas</image:title>
+      <image:caption>Explore our handpicked luxury villas in Koh Samui, Thailand's tropical island retreat</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Koh Samui Area Guide, Beach Information, Local Attractions -->
+  </url>
+
+  <!-- Niseko Listings - Properties in Niseko, Japan -->
+  <url>
+    <loc>https://thevillalist.com/listings?location=niesoko</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/listings?location=niesoko"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/niseko-listings.jpg</image:loc>
+      <image:title>Niseko Luxury Villas</image:title>
+      <image:caption>Discover premium ski chalets and luxury accommodations in Niseko, Japan's premier winter destination</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Niseko Area Guide, Ski Information, Seasonal Activities -->
+  </url>
+
+  <!-- Bangkok Listings - Properties in Bangkok, Thailand -->
+  <url>
+    <loc>https://thevillalist.com/listings?location=bangkok</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/listings?location=bangkok"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/bangkok-listings.jpg</image:loc>
+      <image:title>Bangkok Luxury Villas</image:title>
+      <image:caption>Experience urban luxury with our exclusive properties in Bangkok, Thailand's vibrant capital city</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Bangkok Area Guide, Urban Attractions, Cultural Experiences -->
+  </url>
+
+  <!-- 
+    UTILITY PAGES
+    Support pages for the booking process and user experience.
+    These pages enhance the customer journey and provide additional information.
+  -->
+  
+  <!-- Thank You Page - Confirmation page after booking submission -->
+  <url>
+    <loc>https://thevillalist.com/thank-you</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thevillalist.com/thank-you"/>
+    <!-- Page Description -->
+    <image:image>
+      <image:loc>https://thevillalist.com/images/thank-you.jpg</image:loc>
+      <image:title>Booking Confirmation</image:title>
+      <image:caption>Thank you for your booking request with The Villa List</image:caption>
+    </image:image>
+    <!-- Content Sections -->
+    <!-- This page contains: Confirmation Message, Next Steps, Contact Information -->
+  </url>
+</urlset> 
