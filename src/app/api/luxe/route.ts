@@ -39,15 +39,13 @@ export async function POST(request: Request) {
     const contactIsPhone = !contactIsEmail && isPhoneNumber(contactDetail);
     
     // Set email and phone based on the contact detail
-    const email = contactIsEmail ? contactDetail : null;
+    let email = contactIsEmail ? contactDetail : null;
     const phone = contactIsPhone ? contactDetail : null;
     
     // If contact detail is neither email nor phone, add it to additional info
-    let updatedAdditionalInfo = additionalInfo;
-    if (!contactIsEmail && !contactIsPhone && contactDetail) {
-      updatedAdditionalInfo = additionalInfo 
-        ? `Contact: ${contactDetail}\n\n${additionalInfo}`
-        : `Contact: ${contactDetail}`;
+    
+    if (!contactIsEmail && !contactIsPhone) {
+       email = contactDetail;
     }
     
     // Sanitize array of selected services
@@ -63,7 +61,7 @@ export async function POST(request: Request) {
         phone,
         name,
         selectedServices,
-        additionalInfo: updatedAdditionalInfo
+        additionalInfo,
       }
     });
     
@@ -158,10 +156,10 @@ export async function POST(request: Request) {
             </ul>
           </div>
           
-          ${updatedAdditionalInfo ? `
+          ${additionalInfo ? `
           <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin: 20px 0;">
             <h3 style="color: #DAA520;">Additional Information</h3>
-            <p style="white-space: pre-wrap;">${updatedAdditionalInfo}</p>
+            <p style="white-space: pre-wrap;">${additionalInfo}</p>
           </div>
           ` : ''}
           
