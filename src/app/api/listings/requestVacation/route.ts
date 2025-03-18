@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 // Add the locations data
 const locationsData = [
@@ -66,18 +69,32 @@ export async function POST(request: Request) {
   const formattedCheckIn = formatDate(checkInDate);
   const formattedCheckOut = formatDate(checkOutDate);
 
-  // Nodemailer setup
-  const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    auth: {
-      user: "dawitshishu@gmail.com", 
-      pass:"wtqi bcnf isnv eksf", 
-    },
-  });
-
   try {
+    // Save the vacation inquiry to the database
+    await prisma.vacationInquiry.create({
+      data: {
+        name,
+        email,
+        location: formattedLocation,
+        checkInDate: new Date(checkInDate),
+        checkOutDate: new Date(checkOutDate),
+        guests,
+        status: "new"
+      }
+    });
+
+    console.log("Vacation inquiry saved to database");
+    // Nodemailer setup
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: "dawitshishu@gmail.com", 
+        pass:"wtqi bcnf isnv eksf", 
+      },
+    });
+
     await transporter.sendMail({
         from: `"The Villa List" <${"info@thevillalist.com"}>`,
         to: email,
@@ -149,12 +166,15 @@ export async function POST(request: Request) {
       });
       
 
-    return NextResponse.json({ success: true, message: "Vacation emails sent." });
+    return NextResponse.json({ success: true, message: "Vacation request processed successfully." });
   } catch (error) {
-    console.error("Error sending emails:", error);
+    console.error("Error processing vacation request:", error);
     return NextResponse.json(
-      { success: false, message: "Failed to send vacation emails." },
+      { success: false, message: "Failed to process vacation request." },
       { status: 500 }
     );
+  } finally {
+    // Close the Prisma connection
+    await prisma.$disconnect();
   }
 }
