@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 export async function POST(request: Request) {
-  const { listingId, checkInDate, checkOutDate, name, email, message, guests } =
+  const { listingId, checkInDate, checkOutDate, name, email, message, guests, roomType } =
     await request.json();
 
   if (!listingId || !checkInDate || !checkOutDate || !name || !email || !guests) {
@@ -26,18 +29,64 @@ export async function POST(request: Request) {
   const formattedCheckIn = formatDate(checkInDate);
   const formattedCheckOut = formatDate(checkOutDate);
 
-  // Nodemailer setup
-  const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    auth: {
-      user: "dawitshishu@gmail.com", 
-      pass: "wtqi bcnf isnv eksf", 
-    },
-  });
-
   try {
+    // Get listing details for booking record
+    const listing = await prisma.listing.findUnique({
+      where: { id: listingId },
+    });
+
+    if (!listing) {
+      return NextResponse.json(
+        { success: false, message: "Listing not found." },
+        { status: 404 }
+      );
+    }
+
+    // Calculate the total amount based on the room type or listing price
+    let totalAmount = 0;
+    let selectedRoomType = null;
+
+    if (roomType) {
+      selectedRoomType = await prisma.roomType.findUnique({
+        where: { id: roomType },
+      });
+    }
+
+    // Calculate nights between check-in and check-out
+    const checkInDateTime = new Date(checkInDate);
+    const checkOutDateTime = new Date(checkOutDate);
+    const nights = Math.ceil((checkOutDateTime.getTime() - checkInDateTime.getTime()) / (1000 * 60 * 60 * 24));
+
+    // Use the room type price if selected, otherwise use the listing's price
+    const pricePerNight = selectedRoomType ? selectedRoomType.pricePerNight : listing.pricePerNight;
+    totalAmount = pricePerNight * nights;
+
+    // Save the booking to the database
+    const newBooking = await prisma.booking.create({
+      data: {
+        propertyId: listingId,
+        propertyName: listing.title,
+        guestName: name,
+        guestEmail: email,
+        checkIn: new Date(checkInDate),
+        checkOut: new Date(checkOutDate),
+        guests: guests,
+        status: "pending", // Default status
+        totalAmount: totalAmount,
+      },
+    });
+
+    // Nodemailer setup
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: "dawitshishu@gmail.com", 
+        pass: "wtqi bcnf isnv eksf", 
+      },
+    });
+
     // Email to the user
     await transporter.sendMail({
         from: `"The Villa List" <${"dawitshishu@gmail.com"}>`,
@@ -111,12 +160,18 @@ export async function POST(request: Request) {
       });
       
 
-    return NextResponse.json({ success: true, message: "Booking emails sent." });
+    return NextResponse.json({ 
+      success: true, 
+      message: "Booking confirmed and emails sent.",
+      booking: newBooking
+    });
   } catch (error) {
-    console.error("Error sending emails:", error);
+    console.error("Error processing booking:", error);
     return NextResponse.json(
-      { success: false, message: "Failed to send booking emails." },
+      { success: false, message: "Failed to process booking." },
       { status: 500 }
     );
+  } finally {
+    await prisma.$disconnect();
   }
 }
