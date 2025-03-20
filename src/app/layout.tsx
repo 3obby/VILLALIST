@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* Google Tag Manager */}
+        {/* Google Tag Manager 
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -100,7 +100,7 @@ export default function RootLayout({
         `}
       </Script>
       <body>
-        {/* Google Tag Manager (noscript) */}
+        {/* Google Tag Manager (noscript) 
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PW6GMNM2"
