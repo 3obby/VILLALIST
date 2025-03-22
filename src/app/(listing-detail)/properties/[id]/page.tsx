@@ -235,8 +235,12 @@ const ListingStayDetailPage: FC<ListingStayDetailPageProps> = ({}) => {
         <div className="w-14 border-b border-neutral-200 dark:border-neutral-700"></div>
 
         {/* Description Section */}
-        <div className="text-neutral-600 dark:text-neutral-300 mt-4">
-          <span>{listingData.description}</span>
+         <div className="text-neutral-600 dark:text-neutral-300 mt-4">
+          {listingData.description.split('\n').map((paragraph, index) => (
+            <p key={index} className={index > 0 ? 'mt-3' : ''}>
+              {paragraph}
+            </p>
+          ))}
         </div>
       </div>
     );
