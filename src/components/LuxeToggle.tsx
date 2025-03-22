@@ -31,7 +31,7 @@ const LuxeToggle: React.FC = () => {
         router.push('/');
       } else {
         // If on regular luxe page, go back to previous page
-        window.history.back();
+        router.push('/');
       }
     } else {
       // If in standard mode, navigate to luxe page
