@@ -87,7 +87,7 @@ export default function RootLayout({
           content="Our Popular Destinations At The Villa List, we don't just offer accommodations, we offer experiences. Whether seeking a winter adventure in Niseko's winter wonderland or a tranquil escape in Thailand's tropical paradise of Phuket and Samui, we are here to guide you to your perfect vacation. PhuketVillas for rent in Phuket NisekoVillas for rent in Explore top villas in Bali, Phuket, Koh Samui, and Niseko with TheVillaList.com. Enjoy luxury stays, personalized services, and unforgettable experiences."
         ></meta>
       </Head>
-      <Script
+{/*       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-NF7878J117"
         strategy="afterInteractive"
       />
@@ -98,7 +98,7 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'G-NF7878J117');
         `}
-      </Script>
+      </Script> */}
       <body>
         {/* Google Tag Manager (noscript) 
         <noscript>
