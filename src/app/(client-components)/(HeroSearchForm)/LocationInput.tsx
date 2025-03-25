@@ -179,6 +179,7 @@ const LocationInput: FC<LocationInputProps> = ({
       {/* Trigger Button */}
       <div
         className="pl-6 pt-5 pb-3 flex items-center space-x-3 cursor-pointer " 
+        id="locationTrig"
         onClick={() => setShowModal(true)}
       >
         <div className="">
