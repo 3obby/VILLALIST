@@ -31,7 +31,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
     return (
       <>
         <div id="cal" className="">
-          <CalendarIcon className="w-5 h-5 lg:w-7 lg:h-7" />
+          <CalendarIcon id="calIcon" className="w-5 h-5 lg:w-7 lg:h-7" />
         </div>
         <div className="flex-grow text-left">
           <span id="dates" className="block xl:text-lg font-semibold">
