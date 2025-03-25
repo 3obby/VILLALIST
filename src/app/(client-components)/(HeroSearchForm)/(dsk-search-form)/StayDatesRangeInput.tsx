@@ -30,11 +30,11 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
   const renderInput = () => {
     return (
       <>
-        <div className="">
+        <div id="cal" className="">
           <CalendarIcon className="w-5 h-5 lg:w-7 lg:h-7" />
         </div>
         <div className="flex-grow text-left">
-          <span className="block xl:text-lg font-semibold">
+          <span id="dates" className="block xl:text-lg font-semibold">
             {searchData.startDate?.toLocaleDateString("en-US", {
               month: "short",
               day: "2-digit",
@@ -47,7 +47,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
                 })
               : ""}
           </span>
-          <span className="block mt-1 text-sm text-neutral leading-none font-light">
+          <span id="check" className="block mt-1 text-sm text-neutral leading-none font-light">
             {"Check in - Check out"}
           </span>
         </div>
