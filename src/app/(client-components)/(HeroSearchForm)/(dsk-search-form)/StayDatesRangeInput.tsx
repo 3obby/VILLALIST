@@ -119,6 +119,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
       {({ open, close }) => (
         <div>
           <Popover.Button
+            id="dateTrig"
             className={`flex-1 z-10 flex relative ${fieldClassName} items-center space-x-3 focus:outline-none ${
               open ? "nc-hero-field-focused" : ""
             }`}
