@@ -115,7 +115,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
   };
 
   return (
-    <Popover className={`StayDatesRangeInput z-10 relative flex ${className}`}>
+    <Popover id="dateSelect" className={`StayDatesRangeInput z-10 relative flex ${className}`}>
       {({ open, close }) => (
         <div>
           <Popover.Button
